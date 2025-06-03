@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Title>KS.Fiks.Plan.Samples</Title>
+        <Authors>KS - Kommunesektorens Organisasjon</Authors>
+        <Company>KS - Kommunesektorens Organisasjon</Company>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageIcon>KS.png</PackageIcon>
+        <RepositoryUrl>https://github.com/ks-no/fiks-plan-models-dotnet</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>FIKS</PackageTags>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <VersionPrefix>1.0.1</VersionPrefix>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>KS.Fiks.Plan.Samples</PackageId>
+        <Description>Json meldinger som eksempler for Fiks Plan protokollen</Description>
+        <PackageProjectUrl>https://github.com/ks-no/fiks-plan-samples</PackageProjectUrl>
+        <AssemblyName>KS.Fiks.Plan.Samples</AssemblyName>
+        <RootNamespace>KS.Fiks.Plan.Samples</RootNamespace>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>fiks-io-strongly-named-key.snk</AssemblyOriginatorKeyFile>
+        <LangVersion>8</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="Samples\.DS_Store" />
+        <Content Include="Samples\Responses\.DS_Store" />
+        <None Include="KS.png">
+            <Pack>true</Pack>
+            <PackagePath>/</PackagePath>
+        </None>
+        <None Include="LICENSE" Pack="true" PackagePath="" />
+        <None Include="README.md" Pack="true" PackagePath="" />
+        <Content Include="Samples\**\*.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Samples\**\Attachments\*.pdf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+</Project>
