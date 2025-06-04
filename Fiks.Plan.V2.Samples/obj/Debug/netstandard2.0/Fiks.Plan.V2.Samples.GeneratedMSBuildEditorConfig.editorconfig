@@ -1,8 +1,0 @@
-is_global = true
-build_property.RootNamespace = KS.Fiks.Plan.Samples
-build_property.ProjectDir = /Users/jarle/KS/Repositories/fiks-plan-samples/Fiks.Plan.V2.Samples/
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 
-build_property.EnableCodeStyleSeverity = 
