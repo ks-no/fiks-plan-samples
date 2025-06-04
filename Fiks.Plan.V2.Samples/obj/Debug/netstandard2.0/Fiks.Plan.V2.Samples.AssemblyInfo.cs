@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Json meldinger som eksempler for Fiks Plan protokollen")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+71d32b4d6dd50e52b861afddfb35a7385d3c88c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+bede0075f342ddc4a3f22f3963b345438ad6b3ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("KS.Fiks.Plan.Samples")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KS.Fiks.Plan.Samples")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
