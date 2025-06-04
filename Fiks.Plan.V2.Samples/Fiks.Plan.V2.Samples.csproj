@@ -32,11 +32,15 @@
         </None>
         <None Include="LICENSE" Pack="true" PackagePath="" />
         <None Include="README.md" Pack="true" PackagePath="" />
-        <Content Include="Samples\**\*.json">
+        <Content Include="Samples\Fiks.Plan.V2\**\payload.json">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
-        <Content Include="Samples\**\Attachments\*.pdf">
+        <Content Include="Samples\Fiks.Plan.V2\**\Attachments\*.pdf">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
     </ItemGroup>
+
+    <!--ItemGroup>
+      <Folder Include="Samples\Fiks.Plan.V2\" />
+    </ItemGroup-->
 </Project>
