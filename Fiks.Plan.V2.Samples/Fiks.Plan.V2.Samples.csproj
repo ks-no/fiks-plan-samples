@@ -32,7 +32,9 @@
         </None>
         <None Include="LICENSE" Pack="true" PackagePath="" />
         <None Include="README.md" Pack="true" PackagePath="" />
-        <Folder Include="Samples\Fiks.Plan.V2\" />
+        <Folder Include="Samples\Fiks.Plan.V2">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Folder>
         <Content Include="Samples\Fiks.Plan.V2\**\payload.json">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
