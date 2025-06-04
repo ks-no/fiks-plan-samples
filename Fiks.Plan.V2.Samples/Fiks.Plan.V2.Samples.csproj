@@ -26,8 +26,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Content Include="Samples\.DS_Store" />
-        <Content Include="Samples\Responses\.DS_Store" />
         <None Include="KS.png">
             <Pack>true</Pack>
             <PackagePath>/</PackagePath>
